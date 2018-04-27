@@ -1,0 +1,16 @@
+params=$3 avg time =  sum/100
+params=$3 avg time =  sum/100
+params=$3 avg time =  sum/100
+574.81
+params = $3 avg time =  sum/100
+params = $3 avg time =  sum/100
+params = $3 avg time =  sum/100
+574.81
+params = 100 avg time =  177.1
+params = 1000 avg time =  66.21
+params = 10000 avg time =  141.15
+574.81
+params = 100 avg time =  177.1
+params = 1000 avg time =  66.21
+params = 10000 avg time =  141.15
+params = 10000 avg time =  574.81
