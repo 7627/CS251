@@ -1,0 +1,24 @@
+From 7e0db491643a7928270a07c1f4171e98ae251feb Mon Sep 17 00:00:00 2001
+From: Amit yadav <yamit@iitk.ac.in>
+Date: Mon, 5 Mar 2018 07:17:16 +0530
+Subject: [PATCH] step 30 doing
+
+---
+ hello.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hello.c b/hello.c
+index 1dc4343..74acb6b 100644
+--- a/hello.c
++++ b/hello.c
+@@ -4,6 +4,7 @@ void main(){
+     printf("Helloworld!\n");
+     printf("This must be a monolithic design\n");
+     microkernel_sendmsg("is more portable");
++    printf("A change by user_2");
+ }
+ void microkernel_sendmsg(char *a){
+     printf("microkernel: %s\n", a);
+-- 
+2.14.1
+

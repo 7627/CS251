@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
+\usepackage{lipsum}
+\begin{document}
+
+
+\section*{Kamlesh Kumar Biloniya}
+Department of Computer Science and Engineering\\
+Indian Institute of Technology Kanpur, India\\
+Email: kamlesh$@$ iitk.ac.in\\
+\noindent\rule{7in}{0.4pt}
+\noindent\rule{7in}{0.4pt}
+This paragraph is a brief about yourself and your life objectives. Suspendisse vitae elit. Aliquam arcu neque, ornare
+in, ullamcorper quis, commodo eu, libero. Fusce sagittis erat at erat tristique mollis. Maecenas sapien libero, molestie
+et, lobortis in, sodales eget, dui. Morbi ultrices rutrum lorem. Nam elementum ullamcorper leo. Morbi dui. Aliquam
+sagittis. Nunc placerat. Pellentesque tristique sodales est. Maecenas imperdiet lacinia velit. Cras non urna. Morbi
+eros pede, suscipit ac, varius vel, egestas non, eros. Praesent malesuada, diam id pretium elementum, eros sem
+dictum tortor, vel consectetuer odio sem sed wisi.\\
+\noindent\rule{7in}{0.4pt}
+\noindent\rule{7in}{0.4pt}
+\section*{Education}
+
+\begin{tabular}{|l|l|l|l|}
+
+\hline
+
+    Matriculation & 2013 & Shree ram public sec.sr.school jaipur Raj. & 90.0\% \\
+
+    \hline
+    Intermediate & 2015 & Krishna vidhaya minder sec.sr. school sirkar Raj. & 95.80\%  \\
+\hline
+BTech & 2020 & Indian Institute of Technology, Kanpur & 9.0/10 \\
+\hline
+
+\end{tabular}
+
+\section*{Course details}
+\begin{tabular}{|l|l|l|}
+\hline
+    Semester &Total credit & Highlights \\
+\hline
+    Aug 2016 - Dec 2016 & 50 & ESC - 101 \\
+\hline
+    Jan2017 -April2017 & 57 & TA101 \\
+\hline
+    Aug 2017 - Dec 2017 & 53 & CS201 ,CS202,CS203\\
+\hline
+    Jan 2018 - April 2018 & 56 & CS251,CS220,ESO207\\
+\hline
+\end{tabular}
+\section*{Skills}
+
+
+Computer Sciecnce \hspace{1cm}   : Operating systems(Linux,windows,Kali,BackTrack) \\
+Programming languages\hspace{.5cm}: C, C++, Java, Scripting languages (bash, awk)
+
+\section*{Projects}
+\subsection*{\hspace{.5cm} 1.}
+
+\section*{Awards and achievements}
+$-$ Rank 69 in JEE-Advance 2016\\
+$-$ Rank 654 in JEE-Mains 2016\\
+$-$ Gold medal in essay competetion
+\section*{Hobbies}
+ $-$Sports: Cricket, Volleyball\\
+ $-$Music: Piano, Flute, Clasical\\
+ $-$Others:Photography ,travelling ,video gaming
+\end{document}

@@ -1,0 +1,13 @@
+diff --git a/hello.c b/hello.c
+index 954832a..4d1ce3b 100644
+--- a/hello.c
++++ b/hello.c
+@@ -4,7 +4,7 @@ void main(){
+     printf("Helloworld!\n");
+     printf("This must be a monolithic design\n");
+     microkernel_sendmsg("is more portable");
+-    printf("this is the change made by the user_2");
++    printf("this is the change made by user_2");
+ }
+ void microkernel_sendmsg(char *a){
+     printf("microkernel: %s\n", a);
