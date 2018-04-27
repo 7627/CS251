@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2><center>Let's build stuff</center></h2>
+
+<form name="myform" action="submission.php" onsubmit="return validate()" method="post">
+  Name:<br>
+  <input type="text" name="name" value="">
+  <p id="nameError" class="error" style="color:red"></p>
+  <br/>
+
+ Email address:<br>
+  <input type="text" name="email" value="">
+  <br>
+  <p id="emailError" class="error"></p>
+  <br>
+
+  Address:<br/>
+  <input type="text" name="address">
+  <br>
+  <p id="addressError" class="error"></p>
+  <br>
+
+  Mobile no.:<br/>
+  <input type="text" name="mob"/>
+  <br/>
+  <p id="mobError" class="error"></p>
+  <br/>
+
+  Bank Account number:<br/>
+  <input type="text" name="bank"/>
+  <br/>
+  <p id="bankError" class="error"></p>
+  <br/>
+
+  Password:<br/>
+  <input type="password" name="pass"/>
+  <br/>
+  <p id="passError" class="error"></p>
+  <br/>
+  <input type="submit" value="Submit">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
